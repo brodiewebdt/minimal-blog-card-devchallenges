@@ -180,6 +180,17 @@ li {
   padding-inline: var(--spacing-16);
 }
 
+.image-container {
+  overflow: hidden;
+  border-radius: var(--spacing-8);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .card-body {
   padding-block: var(--spacing-16) var(--spacing-20);
   padding-inline: var(--spacing-16);
