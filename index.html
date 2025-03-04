@@ -3,54 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
+    <meta name="description" content="Minimal Blog Card Challenge from devChallenges.io" />
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>devChallenges.io | Minimal Blog Card</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
-    <!-- Design
-
-  Embracing Minimalism
-
-  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
-
-  Annie Spratt -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
+    <main>
+      <article class="card">
+        <div class="card-header">
+          <div class="image-container">
+            <img src="resources/Cactus.jpg" srcset="resources/Cactus@2x.jpg 2x" alt="a cactus in a terra cotta pot" />
+          </div>
+          <!-- /.image-container -->
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+          <ul class="tags">
+            <li>Design</li>
+          </ul>
+          <a class="post-title" href="#">Embracing Minimalism</a>
+          <p class="post-description">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+        </div>
+        <!-- /.card-body -->
+        <hr class="rule" />
+        <div class="card-footer">
+          <p class="post-author">Annie Spratt</p>
+        </div>
+        <!-- /.card-footer -->
+      </article>
+      <!-- /.card -->
+    </main>
   </body>
 </html>
